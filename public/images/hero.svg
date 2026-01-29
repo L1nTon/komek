@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#e6f0ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="640" fill="url(#g)"/>
+  <g transform="translate(80,80)" fill="#cfe4ff" opacity="0.9">
+    <rect x="0" y="0" width="520" height="360" rx="16"/>
+    <rect x="560" y="40" width="520" height="280" rx="12"/>
+  </g>
+  <g transform="translate(120,120)" fill="#2563EB" opacity="0.08">
+    <circle cx="220" cy="200" r="120"/>
+  </g>
+  <text x="80" y="520" font-family="Inter, Arial, sans-serif" font-size="20" fill="#2563EB" opacity="0.9">Hero illustration placeholder</text>
+</svg>
+
