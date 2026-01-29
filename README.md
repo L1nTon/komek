@@ -19,3 +19,6 @@ Current task:
 7. JavaScript: Use vanilla JS in 'resources/js/app.js' for a mobile burger menu and smooth scroll.
 
 Wait for my input of the specific HTML/CSS properties from Figma or provide a base skeleton based on standard landing page practices so I can refine it.
+
+
+https://docs.google.com/document/d/1GzGgvI1izj0yHB41tdIQkDMnohj0A80-vewA_JnI27k/edit?pli=1&tab=t.0
