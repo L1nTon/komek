@@ -1,0 +1,124 @@
+footer {
+    width: 100%;
+}
+
+footer .contact-footer {
+    padding: 24px 50px 30px;
+    background: #123D4B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer .contact-footer div {
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+
+.first-text,
+footer a {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.secondary-text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #A0AEB7;
+}
+
+.main-footer {
+    background: #0C3542;
+    display: flex;
+    padding: 24px 50px;
+}
+
+.main-footer .left-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.main-footer .left-content h2 {
+    margin-bottom: 9px;
+}
+
+.main-footer .right-content h2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+.main-footer .transaction-type {
+    margin-bottom: 54px;
+}
+
+.main-footer .right-content {
+    margin-left: 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.main-footer .right-content .text-content {
+    max-width: 417px;
+}
+
+.copyright {
+    border-top: 2px solid #123D4B;
+    min-height: 72px;
+    background: #0C3542;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+@media (max-width: 576px) {
+    .main-footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-footer .left-content {
+        width: 100%;
+    }
+
+    .main-footer .right-content {
+        margin-left: 0;
+    }
+
+    .main-footer .transaction-type {
+        margin-bottom: 0;
+    }
+
+    .copyright {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}

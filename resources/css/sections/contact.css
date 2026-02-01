@@ -1,0 +1,119 @@
+.contact {
+    background: #123D4B;
+    padding: 24px 50px;
+}
+
+.contact-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 126px;
+}
+
+.contact-content p {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.contact-content p .sup-span,
+.contact-content p .sup-span a {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-content p .sub-span {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #A0AEB7;
+
+}
+
+
+
+.soc-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.soc-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    background: #A0AEB7;
+    border-radius: 24px;
+    transition: .3s;
+}
+
+.soc-links a:hover {
+    background: #fff;
+}
+
+
+.soc-links a.like-button {
+    width: max-content;
+    padding: 0 16px;
+    height: 32px;
+    opacity: 1;
+    border-radius: 16px;
+    background-color: var(--accent-color);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 100%;
+    border: 1px solid transparent;
+    letter-spacing: 0%;
+}
+
+.soc-links a.like-button:hover {
+    background-color: #fff;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+@media (max-width: 1000px) {
+    .contact .contact-content {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 876px) {
+    .contact .contact-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact {
+        padding: 20px;
+    }
+}
